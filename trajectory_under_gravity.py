@@ -12,7 +12,7 @@ g = 9.81    # gravity (m/s^2)
 dt = 0.001   # timestep (seconds)
 t_max = 5.0 # total simulation time (seconds)
 
-x = -1.0 # initial x position (m)
+x = 0.0 # initial x position (m)
 y = 0.0 # initial y position (m)
 
 vx = 2.644   # initial x velocity (m/s)
@@ -46,7 +46,7 @@ while t <= t_max:
     y += vy * dt
 
     if (y < 0):
-        y = 0
+        break
     
     # restitution: can be used to model bouncing but wasn't necessary for this demonstration
     # if y < 0:

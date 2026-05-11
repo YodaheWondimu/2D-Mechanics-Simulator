@@ -1,0 +1,9 @@
+** Ideas for future simulations **
+
+I made this to list out any ideas for classical mechanics simulations that someone may want to show.
+This helps me, along with other contributors, pinpoint possible simulations and implement the ones that have the greatest "why it matters" value.
+(These are open to anyone that wants to make a pull request and implement these. Of course, I will be using this for future simulation goals, too.)
+
+- Pendelum Physics (Double pendelums?)
+- Monte Carlo simulations to test FRC lookup tables (Euler vs. RK4: Who will win?)
+- Air resistance measurements when wind is involved vs when wind is negligible
